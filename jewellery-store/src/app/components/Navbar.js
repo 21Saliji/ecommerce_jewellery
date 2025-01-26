@@ -3,7 +3,7 @@ import { ShoppingCartIcon, MenuIcon } from "@heroicons/react/outline";
 
 const Navbar = ({ cartCount }) => {
   const [menuOpen, setMenuOpen] = useState(false);
-
+  
   return (
     <nav className="flex justify-between items-center p-4 bg-white shadow-md">
       <h1 className="text-xl font-serif">SALIJI x FXG</h1>
